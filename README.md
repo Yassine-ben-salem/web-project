@@ -32,4 +32,4 @@ V1 complete. Currently rebuilding with a modern stack (React + Node.js)
 with planned AI-powered item matching feature.
 
 ## Author
-Med Yassine Ben Salem — [LinkedIn](www.linkedin.com/in/med-yassine-bensalem) 
+Med Yassine Ben Salem — [LinkedIn](https://www.linkedin.com/in/med-yassine-bensalem)
