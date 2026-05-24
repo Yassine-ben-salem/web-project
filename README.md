@@ -1,29 +1,35 @@
-# UniLost
+# UniLost 🔍
 
-## Overview
-UniLost is a web platform that helps students report and find lost or found items within a university.
+A web platform that helps university students report and recover lost or found items on campus — reducing the chaos of lost belongings through a simple, centralized system.
+
+## Motivation
+Lost items on campus usually end up posted on random WhatsApp groups or physical bulletin boards with no follow-up. UniLost centralizes this process and gives items a proper lifecycle — from reported to resolved.
 
 ## Features
-- Register / Login  
-- Publish lost or found items  
-- Browse items  
-- View item details  
-- Manage items (delete / mark as resolved)  
+- Register / Login with session management
+- Post lost or found items with descriptions
+- Browse and search all active items
+- View item details
+- Manage your posts (delete / mark as resolved)
 
-## Technologies
-- HTML, CSS, JavaScript  
-- PHP  
-- MySQL  
+## Tech Stack
+- Frontend: HTML, CSS, Vanilla JavaScript
+- Backend: PHP
+- Database: MySQL
 
-## Database
-- users → stores accounts  
-- items → stores lost/found items  
+## Database Schema
+- `users` — stores student accounts
+- `items` — stores lost/found item listings with status tracking
 
 ## Installation
-1. Clone repo  
-2. Import database  
-3. Configure db.php  
-4. Run on localhost  
+1. Clone the repo
+2. Import `database.sql` into MySQL
+3. Configure credentials in `db.php`
+4. Run on localhost via XAMPP or similar
+
+## Status
+V1 complete. Currently rebuilding with a modern stack (React + Node.js) 
+with planned AI-powered item matching feature.
 
 ## Author
-Med Yassine Ben Salem
+Med Yassine Ben Salem — [LinkedIn](www.linkedin.com/in/med-yassine-bensalem) 
