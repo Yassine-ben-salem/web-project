@@ -25,7 +25,7 @@ Lost items on campus usually end up posted on random WhatsApp groups or physical
 1. Clone the repo
 2. Import `database.sql` into MySQL
 3. Configure credentials in `db.php`
-4. Run on localhost via XAMPP or similar
+4. Run on localhost via XAMPP
 
 ## Status
 V1 complete. Currently rebuilding with a modern stack (React + Node.js) 
